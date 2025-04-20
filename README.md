@@ -9,7 +9,7 @@ Mengidentifikasi faktor-faktor yang berpengaruh terhadap keputusan karyawan untu
 Data Science Objective:
 Membangun model prediktif untuk mengklasifikasikan apakah seorang karyawan akan bertahan atau keluar dari perusahaan.
 
-🧹 2. Data Understanding & Data Cleaning
+## 🧹 2. Data Understanding & Data Cleaning
 Dataset berisi informasi demografis, pekerjaan, dan kompensasi dari karyawan. Tahapan yang dilakukan:
 
 Mengimpor data
@@ -24,7 +24,7 @@ Menghapus kolom yang tidak relevan seperti EmployeeId, StandardHours, dan Employ
 
 Encoding pada variabel kategorikal menggunakan one-hot encoding
 
-📊 3. Exploratory Data Analysis (EDA)
+## 📊 3. Exploratory Data Analysis (EDA)
 Beberapa insight dari EDA:
 
 Karyawan muda cenderung lebih banyak keluar.
@@ -35,7 +35,7 @@ Karyawan yang sering lembur atau bepergian memiliki kemungkinan keluar lebih tin
 
 EDA divisualisasikan dengan seaborn dan matplotlib (disertakan dalam notebook).
 
-🧠 4. Data Preprocessing & Feature Engineering
+## 🧠 4. Data Preprocessing & Feature Engineering
 Variabel target (Attrition) dikonversi ke format numerik: Bertahan = 0, Keluar = 1
 
 One-hot encoding dilakukan untuk kolom kategorikal
@@ -46,7 +46,7 @@ Dataset dipecah menjadi X (fitur) dan y (target)
 
 Pembagian data: 80% train dan 20% test, dengan stratify=y
 
-🤖 5. Modeling
+## 🤖 5. Modeling
 Model yang digunakan: Logistic Regression
 
 python
@@ -74,7 +74,7 @@ Precision, Recall, dan F1-score menunjukkan performa model cukup baik untuk mend
 
 Confusion Matrix menunjukkan keseimbangan klasifikasi antara kelas 'Keluar' dan 'Bertahan'
 
-🚀 7. Deployment
+## 🚀 7. Deployment
 Model dijalankan secara lokal. Untuk penggunaan lebih lanjut, model bisa disimpan dengan joblib atau pickle untuk digunakan dalam sistem internal HR.
 
 python
@@ -83,7 +83,7 @@ Edit
 import joblib
 joblib.dump(model, 'logistic_model.pkl')
 
-✅ 8. Conclusion
+## ✅ 8. Conclusion
 Model logistic regression yang dibangun mampu mengklasifikasikan karyawan yang berpotensi keluar dengan akurasi 85.8%. Faktor-faktor seperti usia, pengalaman kerja, dan frekuensi lembur menjadi indikator utama dalam prediksi. Dengan hasil ini, departemen HR dapat:
 
 Menyusun strategi retensi yang lebih baik
