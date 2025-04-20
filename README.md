@@ -1,5 +1,6 @@
 Employee Attrition Analysis – Jaya Jaya Maju
-📌 1. Business Understanding
+
+## 📌 1. Business Understanding
 Departemen HR dari perusahaan Jaya Jaya Maju mengalami tantangan dalam mempertahankan karyawan. Beberapa karyawan keluar tanpa tanda-tanda yang jelas sebelumnya. Untuk mengurangi tingkat turnover, diperlukan analisis mendalam untuk mengetahui faktor-faktor yang menyebabkan karyawan keluar.
 
 Business Objective:
